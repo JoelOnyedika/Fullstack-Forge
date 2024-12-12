@@ -1,0 +1,1 @@
+// Express routes template with TypeScript
