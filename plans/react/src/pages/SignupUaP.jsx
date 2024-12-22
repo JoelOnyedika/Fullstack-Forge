@@ -10,7 +10,7 @@ const SignupUaP = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Implement login logic
-    console.log('Login attempted', { username, password });
+    console.log('Login attempted', { username, password, email });
   };
 
   return (
@@ -104,6 +104,7 @@ const SignupUaP = () => {
             <button 
               type="submit" 
               className="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all"
+            
             >
               <LogIn className="mr-2 h-5 w-5" />
               Sign Up
